@@ -1,0 +1,29 @@
+{
+  "name": "site-recipes-admin",
+  "version": "0.0.1",
+  "description": "A Kinto admin for Site Recipes.",
+  "scripts": {
+    "build": "kinto-admin build -c config.json -d build",
+    "publish-to-gh-pages": "npm run build && ./node_modules/.bin/gh-pages --dist build/",
+    "start": "./node_modules/.bin/kinto-admin serve -c config.json",
+    "test": "echo \"Tested in kinto-admin.\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mozilla-services/site-recipes-admin.git"
+  },
+  "keywords": [
+    "kinto",
+    "admin",
+    "mozilla"
+  ],
+  "author": "\"Mozilla Storage Team\" <storage@mozilla.com>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/mozilla-services/site-recipes-admin/issues"
+  },
+  "homepage": "https://github.com/mozilla-services/site-recipes-admin#readme",
+  "dependencies": {
+    "kinto-admin": "^0.12.4"
+  }
+}

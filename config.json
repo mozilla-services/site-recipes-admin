@@ -1,0 +1,46 @@
+{
+  "site-recipes": {
+    "name": "Site recipes",
+    "synced": true,
+    "config": {
+      "displayFields": ["description", "hosts"],
+      "liveValidate": true,
+      "schema": {
+        "title": "Site recipes",
+        "type": "object",
+        "required": ["hosts"],
+        "properties": {
+          "description": {
+            "title": "Description",
+            "type": "string"
+          },
+          "hosts": {
+            "title": "Hosts",
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "minItems": 1
+          },
+          "usernameSelector": {
+            "title": "Username selector(s)",
+            "type": "string"
+          },
+          "passwordSelector": {
+            "title": "Password selector(s)",
+            "type": "string"
+          },
+          "notUsernameSelector": {
+            "title": "Exclude password selector(s)",
+            "type": "string"
+          },
+          "pathRegex": {
+            "title": "Path RegEx",
+            "type": "string"
+          }
+        }
+      },
+      "uiSchema": {}
+    }
+  }
+}
