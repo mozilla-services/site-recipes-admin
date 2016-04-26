@@ -6,7 +6,7 @@ This is an experimental admin console for managing Firefox [site recipes](https:
 
 ![](http://i.imgur.com/RfkmVuT.png)
 
-A live demo is hosted [on gh-pages](https://mozilla-services.github.io/site-recipes-kinto).
+A live demo is hosted [on gh-pages](http://mozilla-services.github.io/site-recipes-admin/).
 
 Settings should be configured as following:
 
