@@ -14,7 +14,7 @@ Settings should be configured as following:
 
 Then click on the *site-recipes* link in the sidebar, and press the *Synchronize* button.
 
-Published JSON data are retrievable using [this url](https://public:notsecret@kinto.dev.mozaws.net/v1/buckets/default/collections/experiments/records).
+Published JSON data are retrievable using [this url](https://test:test@kinto-ota.dev.mozaws.net/v1/buckets/site-recipes/collections/site-recipes/records).
 
 ## Install
 
